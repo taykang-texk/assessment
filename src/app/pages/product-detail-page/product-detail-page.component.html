@@ -1,0 +1,135 @@
+<app-top-nav></app-top-nav>
+<app-nav [category]="category" [categoryCode]="categoryCode" banner="Pay 0% interest for up to 24 months. Terms apply.◊◊ "></app-nav>
+
+<div class="flex flex-col items-center" >
+    <div class="md:w-3/4 w-full flex flex-col items-center mt-14">
+        <div class="grid grid-cols-2 w-full px-5" >
+            <div class="flex flex-col items-center">
+                <img width="386" height="233" alt="14-inch MacBook Pro, open, display, thin bezel, FaceTime HD camera, raised feet, rounded corners, Space Black" 
+                src="{{product.colors[product.selectedColor].src2}}" class="rf-configuration-hero-image sticky top-1 left -0 z-0">
+                <a class="custom-link-style mt-3 cursor-pointer">View gallery</a>
+            </div>
+            <div class="flex flex-col px-3" *ngIf="productDetail">
+                <span class="text-3xl font-semibold">Customise your {{product.inch}} Macbook Pro - {{product.colors[product.selectedColor].colorName}}</span>
+                <span class="my-5 leading-7" [innerHTML]="productDetail.description"></span>
+                <hr class="my-3">
+                <span class="text-sm font-semibold my-3">Add a trade-in</span>
+                <span  class="text-sm ">Get credit towards a new Mac when you trade in your eligible computer. Or recycle it for free.**</span>
+                <a class="custom-link-style mt-3 cursor-pointer">Get Started</a>
+                <hr class="my-3">
+                <ng-container *ngIf="productDetail.chips">
+                    <span class="text-sm font-semibold my-2">Chip (Processor)
+                    </span>
+                    <a class="custom-link-style cursor-pointer">Which chip is right for you?Chip (Processor)</a>
+                    <ul class="my-2">
+                        <li *ngFor="let chipOption of productDetail.chips; let i = index"
+                            (click)="selectedChipOption(i)"
+                            [class.selected]="selectedPowerAdapterIndex === i">
+                        <span class="w-1/2">{{ chipOption.chip }}</span>
+                        <span *ngIf="totalChipPrice == chipOption.price"></span>
+                        <span *ngIf="totalChipPrice != chipOption.price">
+                            <span *ngIf="totalChipPrice <= chipOption.price">+ RM {{ chipOption.price}}</span>
+                            <span *ngIf="totalChipPrice >= chipOption.price">- RM {{ totalChipPrice - chipOption.price}}</span>
+                        </span>
+                        </li>
+                    </ul>
+                </ng-container>
+                <span class="text-sm font-semibold my-2">Memory</span>
+                <a class="custom-link-style cursor-pointer">How much memory is right for you?</a>
+                <ul class="my-2">
+                    <li *ngFor="let memoryOption of productDetail.memory; let i = index"
+                        (click)="selectedMemoryOption(i)"
+                        [class.selected]="selectedMemoryIndex === i">
+                    <span>{{ memoryOption.unifiedMemory }} </span>
+                    <span *ngIf="totalMemoryPrice == memoryOption.price"></span>
+                    <span  *ngIf="totalMemoryPrice != memoryOption.price">
+                        <span *ngIf="totalMemoryPrice <= memoryOption.price">+ RM {{ memoryOption.price}}</span>
+                        <span *ngIf="totalMemoryPrice >= memoryOption.price">- RM {{ totalMemoryPrice - memoryOption.price}}</span>
+                    </span>
+                    </li>
+                </ul>
+                <span class="text-sm font-semibold my-2">Storage</span>
+                <a class="custom-link-style cursor-pointer">How much storage is right for you?</a>
+                <ul class="my-2">
+                    <li *ngFor="let storageOption of productDetail.storage; let i = index"
+                        (click)="selectedStorageOption(i)"
+                        [class.selected]="selectedStorageIndex === i">
+                    <span>{{ storageOption.storage }} SSD Storage</span>
+                    <span *ngIf="totalStoragePrice == storageOption.price"></span>
+                    <span  *ngIf="totalStoragePrice != storageOption.price">
+                        <span *ngIf="totalStoragePrice <= storageOption.price">+ RM {{ storageOption.price}}</span>
+                        <span *ngIf="totalStoragePrice >= storageOption.price">- RM {{ totalStoragePrice - storageOption.price}}</span>
+                    </span>
+                    </li>
+                </ul>
+                <span class="text-sm font-semibold my-2">Power Adapter
+                </span>
+                <a class="custom-link-style cursor-pointer">Which power adapter is right for you?Power Adapter</a>
+                <ul class="my-2">
+                    <li *ngFor="let powerAdapterOption of productDetail.powerAdapter; let i = index"
+                        (click)="selectedPowerAdapterOption(i)"
+                        [class.selected]="selectedPowerAdapterIndex === i">
+                    <span>{{ powerAdapterOption.watt }} USB-C Power Adapter</span>
+                    <span *ngIf="totalPowerAdapterPrice == powerAdapterOption.price"></span>
+                    <span  *ngIf="totalPowerAdapterPrice != powerAdapterOption.price">
+                        <span *ngIf="totalPowerAdapterPrice <= powerAdapterOption.price">+ RM {{ powerAdapterOption.price}}</span>
+                        <span *ngIf="totalPowerAdapterPrice >= powerAdapterOption.price">- RM {{ totalPowerAdapterPrice - powerAdapterOption.price}}</span>
+                    </span>
+                    </li>
+                </ul>
+                
+                <span class="text-sm font-semibold my-2">Keyboard Language</span>
+                <a class="custom-link-style cursor-pointer">Learn More</a>
+                <div class="select-container">
+                    <select>
+                        <option *ngFor="let type of keyboard" [value]="type">{{ type }}</option>
+                      </select>
+                  </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class=" sticky bottom-1 left -0 z-0 h-fit w-full flex justify-center" style="background-color: #F5F5F7;">
+        <div class="md:w-3/4 w-full flex items-center">
+            <div class="flex p-5 justify-between gap-1 w-full">
+                <div class="flex gap-2 md:flex hidden">
+                    <svg class="as-svgicon-rtl-mirrored as-svgicon as-svgicon-boxtruck as-svgicon-reduced as-svgicon-boxtruckreduced" viewBox="0 0 25 25" role="img" aria-hidden="true" width="25px" height="25px"><path fill="none" d="M0 0h25v25H0z"></path><path fill="#1d1d1f" d="m23.482 12.847-2.92-3.209A1.947 1.947 0 0 0 18.985 9H17V6.495a2.5 2.5 0 0 0-2.5-2.5h-11a2.5 2.5 0 0 0-2.5 2.5v9.75a2.5 2.5 0 0 0 2.5 2.5h.548A2.746 2.746 0 0 0 6.75 21.02 2.618 2.618 0 0 0 9.422 19h6.681a2.744 2.744 0 0 0 5.347-.23h.735A1.656 1.656 0 0 0 24 16.98v-2.808a1.937 1.937 0 0 0-.518-1.325ZM8.426 18.745a1.74 1.74 0 0 1-3.352 0 1.577 1.577 0 0 1 .015-1 1.738 1.738 0 0 1 3.322 0 1.578 1.578 0 0 1 .015 1ZM9.447 18a2.726 2.726 0 0 0-5.394-.255H3.5a1.502 1.502 0 0 1-1.5-1.5v-9.75a1.502 1.502 0 0 1 1.5-1.5h11a1.502 1.502 0 0 1 1.5 1.5V18Zm10.972.77a1.738 1.738 0 0 1-3.337 0 1.573 1.573 0 0 1 0-1 1.742 1.742 0 1 1 3.337 1ZM23 16.98c0 .569-.229.79-.815.79h-.735A2.73 2.73 0 0 0 17 16.165V10h1.986a.976.976 0 0 1 .838.314l2.927 3.214a.95.95 0 0 1 .249.644Zm-1.324-3.36a.512.512 0 0 1 .174.38h-3.306a.499.499 0 0 1-.544-.528V11h1.073a.76.76 0 0 1 .594.268Z">
+        
+                        </path>
+                    </svg>
+                    <div class="flex flex-col">
+                        <span class="text-sm">Order today. Delivers to <a class="custom-link-style cursor-pointer mt-1">55188</a></span>
+                        <span class="text-sm font-semibold">Wed 03/07/2024 — Free</span>
+                    </div>
+                </div>
+                <div class="flex gap-2 px-2 md:flex hidden">
+                    <svg viewBox="0 0 25 25" class="as-svgicon as-svgicon-applestorepickup as-svgicon-reduced as-svgicon-applestorepickupreduced" role="img" aria-hidden="true" width="25px" height="25px"><path fill="none" d="M0 0h25v25H0z"></path><path d="M18.5 5h-1.775a4.231 4.231 0 0 0-8.45 0H6.5A2.5 2.5 0 0 0 4 7.5v11A2.5 2.5 0 0 0 6.5 21h12a2.5 2.5 0 0 0 2.5-2.5v-11A2.5 2.5 0 0 0 18.5 5Zm-6-3a3.245 3.245 0 0 1 3.225 3h-6.45A3.245 3.245 0 0 1 12.5 2ZM20 18.5a1.5 1.5 0 0 1-1.5 1.5h-12A1.5 1.5 0 0 1 5 18.5v-11A1.5 1.5 0 0 1 6.5 6h12A1.5 1.5 0 0 1 20 7.5Z"></path><path d="M14.4 12.448a1.592 1.592 0 0 1 .738-1.328 1.607 1.607 0 0 0-1.37-.687c-.52 0-.941.317-1.22.317s-.663-.3-1.129-.3a1.861 1.861 0 0 0-1.739 2.068 4.32 4.32 0 0 0 .723 2.3c.346.491.648.883 1.084.883s.617-.287 1.144-.287c.55 0 .663.279 1.137.279s.791-.43 1.084-.853a3.24 3.24 0 0 0 .474-.989 1.516 1.516 0 0 1-.926-1.403ZM12.583 10.357a1.346 1.346 0 0 0 .941-.5 1.594 1.594 0 0 0 .361-.974.731.731 0 0 0-.008-.136 1.5 1.5 0 0 0-1.016.528 1.547 1.547 0 0 0-.384.943c0 .053.008.106.008.128.03.004.06.011.098.011Z">
+        
+                    </path>
+                    </svg>
+                    <div class="flex flex-col">
+                        <span class="text-sm">Order now. Pick up, in store:</span>
+                        <span class="text-sm ">Today at  <a class="custom-link-style cursor-pointer mt-1">Apple The Exchange TRX</a></span>
+                    </div>
+                </div>
+                <div class="flex text-right flex-col md:px-2 px-0">
+                    <div>
+                        <span class="md:text-2xl md:text-xl font-semibold">RM {{ totalPrice}} </span>
+                        <span class="text-sm my-2  font-semibold"> or</span><br>
+                        <span class="md:text-2xl md:text-xl font-semibold">RM {{ installment}} /mo.per month for 24 mo.</span>
+                    </div>
+                    <a class="custom-link-style cursor-pointer">Explore monthly installment options</a>
+                </div>
+                <div>
+                    <button style="color:white;background-color: #06c; border-radius: 10px;" class="px-3 py-2" (click)="addToCart()">Add to bag</button>
+                    
+                </div>
+                
+                <svg width="35" height="35" class="as-svgicon as-svgicon-bookmark as-svgicon-base as-svgicon-bookmarkbase" role="img" aria-hidden="true"><path fill="none" d="M0 0h35v35H0z"></path><path d="M21.952 6.433a2.157 2.157 0 0 1 1.567.481A2.228 2.228 0 0 1 24 8.516v19.866a.709.709 0 0 1-.018.178.7.7 0 0 1-.058-.013 8.985 8.985 0 0 1-.757-.674l-4.866-4.901a1.111 1.111 0 0 0-1.602 0l-4.857 4.891a7.25 7.25 0 0 1-.754.676.145.145 0 0 1-.053.028h-.015a.681.681 0 0 1-.02-.185V8.516a2.228 2.228 0 0 1 .48-1.602 2.158 2.158 0 0 1 1.568-.48h8.904m0-1h-8.904a3.077 3.077 0 0 0-2.278.776A3.144 3.144 0 0 0 10 8.516v19.866a1.276 1.276 0 0 0 .276.868.956.956 0 0 0 .76.317 1.073 1.073 0 0 0 .632-.213 8.377 8.377 0 0 0 .874-.776l4.866-4.9a.115.115 0 0 1 .184 0l4.866 4.9a10.454 10.454 0 0 0 .868.77 1.048 1.048 0 0 0 .639.219.956.956 0 0 0 .76-.317 1.276 1.276 0 0 0 .275-.868V8.516a3.144 3.144 0 0 0-.77-2.306 3.077 3.077 0 0 0-2.278-.776Z">
+    
+                </path></svg>
+            </div>
+        </div>
+        
+    </div>
+</div>

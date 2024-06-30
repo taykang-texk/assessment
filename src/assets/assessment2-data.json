@@ -1,0 +1,47 @@
+[
+    { 
+        "id": "1",
+        "product": "Chai", 
+        "unitPrice": 18,
+        "qtyPerUnit": "10 boxes x20 bags",
+        "details": 
+            {
+                "inStock": 39,
+                "onOrder": 0,
+                "reoroderLevel": 10,
+                "discountinues": null,
+                "category": "Beverages - Soft drinks, coffees, teas, beers, and ales"
+
+            }
+    },
+    { 
+        "id": "2",
+        "product": "Chang", 
+        "unitPrice": 19,
+        "qtyPerUnit": "10 boxes x20 bags",
+        "details": 
+            {
+                "inStock": 39,
+                "onOrder": 0,
+                "reoroderLevel": 10,
+                "discountinues": null,
+                "category": "Beverages - Soft drinks, coffees, teas, beers, and ales"
+
+            }
+    },
+    { 
+        "id": "3",
+        "product": "Aniseed Syrup", 
+        "unitPrice": 10,
+        "qtyPerUnit": "10 boxes x20 bags",
+        "details": 
+            {
+                "inStock": 39,
+                "onOrder": 0,
+                "reoroderLevel": 10,
+                "discountinues": null,
+                "category": "Beverages - Soft drinks, coffees, teas, beers, and ales"
+
+            }
+    }
+]

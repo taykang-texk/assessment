@@ -1,0 +1,10 @@
+[
+    { 
+        "inch": "14-inch", 
+        "chip": ["M3","M3 Pro","M3 Max"]
+    },
+    { 
+        "inch": "16-inch", 
+        "chip": ["M3 Pro","M3 Max"]
+    }
+]

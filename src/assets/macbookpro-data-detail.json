@@ -1,0 +1,548 @@
+[
+    { 
+        "id": "1", 
+        "description": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine<br>8GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ]
+    },
+    { 
+        "id": "2", 
+        "description": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine<br>8GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ]
+    },
+    { 
+        "id": "3", 
+        "description": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine<br>8GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ]
+    },
+    { 
+        "id": "4", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    },
+    { 
+        "id": "5", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    },
+    { 
+        "id": "6", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    },
+    { 
+        "id": "7", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    },
+    { 
+        "id": "8", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    },
+    { 
+        "id": "9", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    },
+    { 
+        "id": "10", 
+        "description": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine<br>36GB unified memory<br>512GB SSD storage<br>14-inch Liquid Retina XDR display²<br>70W USB-C Power Adapter<br>Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port<br>Backlit Magic Keyboard with Touch ID - US English",
+        "memory": [
+            {
+                "unifiedMemory": "8GB",
+                "price": 0
+            },
+            {
+                "unifiedMemory": "16GB",
+                "price": 800
+            },
+            {
+                "unifiedMemory": "24GB",
+                "price": 1600
+            }
+        ],
+        "storage": [
+            {
+                "storage": "512GB",
+                "price": 0
+            },
+            {
+                "storage": "1TB",
+                "price": 800
+            },
+            {
+                "storage": "2TB",
+                "price": 2400
+            }
+        ],
+        "powerAdapter": [
+            {
+                "watt": "70W",
+                "price": 0
+            },
+            {
+                "watt": "96W",
+                "price": 80
+            }
+        ],
+        "chips":[
+            {
+                "chip": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                "price": 0
+            },
+            {
+                "chip": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                "price": 800
+            },
+            {
+                "chip": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                "price": 2400
+            },
+            {
+                "chip": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                "price": 3600
+            }
+        ]
+    }
+]

@@ -1,0 +1,276 @@
+[
+    { 
+        "id": 1,
+        "inch": "14-inch", 
+        "chip": "M3",
+        "cpu": "8-Core CPU",
+        "gpu": "10-Core GPU",
+        "um": "8GB Unified Memory",
+        "storage": "512GB SSD Storage¹",
+        "description":"14-inch Liquid Retina XDR display² <br> Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID<br> Force Touch trackpad <br>70W USB-C Power Adapter",
+        "price": "7499.00",
+        "installment": "RM 312.46/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Grey",
+                "colorCode": "#808080",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562647"
+    },
+    { 
+        "id": 2,
+        "inch": "14-inch", 
+        "chip": "M3",
+        "cpu": "8-Core CPU",
+        "gpu": "10-Core GPU",
+        "um": "8GB Unified Memory",
+        "storage": "1TB SSD Storage¹",
+        "description":"14-inch Liquid Retina XDR display² <br> Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br>Force Touch trackpad <br>70W USB-C Power Adapter",
+        "price": "8299.00",
+        "installment": "RM 345.79/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Grey",
+                "colorCode": "#808080",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562647"
+    },
+    { 
+        "id": 3,
+        "inch": "14-inch", 
+        "chip": "M3",
+        "cpu": "8-Core CPU",
+        "gpu": "10-Core GPU",
+        "um": "16GB Unified Memory",
+        "storage": "1TB SSD Storage¹",
+        "description":"14-inch Liquid Retina XDR display² <br> Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br>Force Touch trackpad <br>70W USB-C Power Adapter",
+        "price": "9099.00",
+        "installment": "RM 379.13/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Grey",
+                "colorCode": "#808080",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381686"
+
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562647"
+    },
+    { 
+        "id": 4,
+        "inch": "14-inch", 
+        "chip": "M3 Pro",
+        "cpu": "11-Core CPU",
+        "gpu": "14-Core GPU",
+        "um": "18GB Unified Memory",
+        "storage": "512GB SSD Storage¹",
+        "description":"14-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID<br> Force Touch trackpad <br>70W USB-C Power Adapter",
+        "price": "9999.00",
+        "installment": "RM 416.63/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830118",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381727"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381636"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-pro-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562659"
+
+    },
+    { 
+        "id": 5,
+        "inch": "14-inch", 
+        "chip": "M3 Pro",
+        "cpu": "12-Core CPU",
+        "gpu": "18-Core GPU",
+        "um": "18GB Unified Memory",
+        "storage": "1TB SSD Storage¹",
+        "description":"14-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID<br> Force Touch trackpad <br>96W USB-C Power Adapter",
+        "price": "11599.00",
+        "installment": "RM 483.29/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830118",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381727"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381636"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-pro-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562659"
+    },
+    { 
+        "id": 6,
+        "inch": "14-inch", 
+        "chip": "M3 Max",
+        "cpu": "14-Core CPU",
+        "gpu": "30-Core GPU",
+        "um": "36GB Unified Memory",
+        "storage": "1TB SSD Storage¹",
+        "description":"14-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br>Force Touch trackpad <br>96W USB-C Power Adapter",
+        "price": "11599.00",
+        "installment": "RM 483.29/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830118",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381727"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830269",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-14-m3-max-pro-silver-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381636"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-max-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562691"
+    },
+    { 
+        "id": 7,
+        "inch": "16-inch", 
+        "chip": "M3 Pro",
+        "cpu": "12-Core CPU",
+        "gpu": "18-Core GPU",
+        "um": "18GB Unified Memory",
+        "storage": "512GB SSD Storage¹",
+        "description":"16-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br> Force Touch trackpad <br>140W USB-C Power Adapter",
+        "price": "11999.00",
+        "installment": "RM 499.96/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-spaceblack-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381822"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-silver-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381876"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-pro-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562659"
+    },
+    { 
+        "id": 8,
+        "inch": "16-inch", 
+        "chip": "M3 Pro",
+        "cpu": "12-Core CPU",
+        "gpu": "18-Core GPU",
+        "um": "36GB Unified Memory",
+        "storage": "512GB SSD Storage¹",
+        "description":"16-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br> Force Touch trackpad <br>140W USB-C Power Adapter",
+        "price": "13599.00",
+        "installment": "RM 566.63/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-spaceblack-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381822"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-silver-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381876"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-pro-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562659"
+    },
+    { 
+        "id": 9,
+        "inch": "16-inch", 
+        "chip": "M3 Max",
+        "cpu": "14-Core CPU",
+        "gpu": "30-Core GPU",
+        "um": "36GB Unified Memory",
+        "storage": "1TB SSD Storage¹",
+        "description":"16-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br> Force Touch trackpad <br>140W USB-C Power Adapter",
+        "price": "15999.00",
+        "installment": "RM 666.63/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-spaceblack-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381822"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-silver-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381876"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-pro-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562659"
+    },
+    { 
+        "id": 10,
+        "inch": "16-inch", 
+        "chip": "M3 Max",
+        "cpu": "16-Core CPU",
+        "gpu": "40-Core GPU",
+        "um": "48GB Unified Memory",
+        "storage": "1TB SSD Storage¹",
+        "description":"16-inch Liquid Retina XDR display² <br> Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>Magic Keyboard with Touch ID <br> Force Touch trackpad <br>140W USB-C Power Adapter",
+        "price": "17999.00",
+        "installment": "RM 749.96/mo.per month for 24 mo.",
+        "colors": [
+            {
+                "colorName": "Space Black",
+                "colorCode": "#36454F",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-spaceblack-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381822"
+            },
+            {
+                "colorName": "Silver",
+                "colorCode": "#D3D3D3",
+                "src": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830241",
+                "src2": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-16-silver-cto-hero-202310?wid=884&hei=540&fmt=jpeg&qlt=90&.v=1697913381876"
+            }
+        ],
+        "chipIcon": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-m3-pro-icon-202310?wid=102&hei=102&fmt=png-alpha&.v=1697039562659"
+    }
+]

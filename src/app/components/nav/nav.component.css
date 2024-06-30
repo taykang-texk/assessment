@@ -1,0 +1,8 @@
+a.custom-link-style {
+    color: #06c; /* Specify your desired color here */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  a.custom-link-style:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+  }

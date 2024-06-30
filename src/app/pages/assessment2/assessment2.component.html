@@ -1,0 +1,36 @@
+<div class="w-full flex justify-center mt-30">
+    <table class="w-3/4">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="px-4 py-2"></th>
+          <th class="px-4 py-2">Product</th>
+          <th class="px-4 py-2">Unit Price</th>
+          <th class="px-4 py-2">Quantity Per Unit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let item of data; let i = index">
+            <tr [ngClass]="{'bg-gray-100': i % 2 !== 0, 'bg-white': i % 2 === 0}">
+                <td class="border px-4 py-2 text-center">
+                  <button (click)="toggleDetails(i)" class="font-semibold"> {{ expandedRowIndex === i ? '-' : '+' }} </button>
+                </td>
+                <td class="border px-4 py-2">{{ item.product }}</td>
+                <td class="border px-4 py-2">{{ item.unitPrice | currency }}</td>
+                <td class="border px-4 py-2">{{ item.qtyPerUnit }}</td>
+              </tr>
+              <tr *ngIf="expandedRowIndex === i ">
+                <td colspan="4" class="border px-4 py-2">
+                    <div>
+                        <p><strong>In Stock:</strong> {{ item.details.inStock }}</p>
+                        <p><strong>On Order:</strong> {{ item.details.onOrder }}</p>
+                        <p><strong>Reorder Level:</strong> {{ item.details.reoroderLevel }}</p>
+                        <p><strong>Discontinued:</strong> {{ item.details.discountinues }}</p>
+                        <p><strong>Category:</strong> {{ item.details.category }}</p>
+                      </div>
+                </td>
+              </tr>
+        </ng-container>
+        
+      </tbody>
+    </table>
+  </div>

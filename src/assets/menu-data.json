@@ -1,0 +1,13 @@
+[
+    { "label": "Store", "link": "/store" },
+    { "label": "Mac", "link": "/mac" },
+    { "label": "iPad", "link": "/ipad" },
+    { "label": "iPhone", "link": "/iphone" },
+    { "label": "Watch", "link": "/watch" },
+    { "label": "AirPods", "link": "/airpods" },
+    { "label": "TV & Home", "link": "/tvhome" },
+    { "label": "Entertainment", "link": "/entertainment" },
+    { "label": "Accessories", "link": "/accessories" },
+    { "label": "Support", "link": "/support" }
+
+  ]

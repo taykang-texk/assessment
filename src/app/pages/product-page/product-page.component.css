@@ -1,0 +1,23 @@
+.rc-productbundle-image {
+    height: 392px;
+    width: auto;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+  }
+  .chip-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .chip-info ul li {
+    margin-bottom: 8px;
+  }
+
+  /* Custom link styles */
+  a.custom-link-style {
+    color: #06c; /* Specify your desired color here */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  a.custom-link-style:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+  }

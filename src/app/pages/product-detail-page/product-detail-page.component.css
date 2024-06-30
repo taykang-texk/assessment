@@ -1,0 +1,56 @@
+  /* Custom link styles */
+  a.custom-link-style {
+    color: #06c; /* Specify your desired color here */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  a.custom-link-style:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li.selected {
+    border-color: #06c;
+  }
+  .select-container {
+    margin: 20px 0;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: border-color 0.3s;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+  }
+  
+  select:focus {
+    border-color: #06c;
+  }
+  
+  option {
+    padding: 10px;
+  }

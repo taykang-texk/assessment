@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  li.selected .color-circle {
+    border-color: black;
+  }
+  /* Custom link styles */
+    a.custom-link-style {
+    color: #06c; /* Specify your desired color here */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  a.custom-link-style:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+  }
